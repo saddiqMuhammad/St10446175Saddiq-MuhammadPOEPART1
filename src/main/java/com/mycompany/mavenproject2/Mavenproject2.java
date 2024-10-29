@@ -3,7 +3,9 @@
  */
 package com.mycompany.mavenproject2;
 
-import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -13,7 +15,7 @@ import java.util.Scanner;
 public class Mavenproject2 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+       
         
         //Create Object of Login class 
         Login objLogin = new Login();
